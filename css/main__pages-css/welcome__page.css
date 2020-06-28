@@ -1,12 +1,12 @@
-@import url('./css/layout/base.css');
-@import url('./css/layout/normalize.css');
+@import url('./layout/base.css');
+@import url('./layout/normalize.css');
 
-@import url('./css/blocks/btn.css');
-@import url('./css/blocks/wrapper.css');
-@import url('./css/blocks/container.css');
+@import url('./blocks/btn.css');
+@import url('./blocks/wrapper.css');
+@import url('./blocks/container.css');
 
 .welcome__page-wrapper {
-  background: url(/img/bg/splash.jpg) center center no-repeat fixed;
+  background: url(../../img/bg/splash.jpg) center center no-repeat fixed;
   background-size: cover;
 }
 
