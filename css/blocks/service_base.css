@@ -1,0 +1,110 @@
+
+.header__content {
+  background: url(/img/bg/lion-head-wide.jpg) center top no-repeat;
+}
+
+.top__line {
+  min-height: 415px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background: #202123 url("/img/bg/lion-head-wide.jpg") right 25% top no-repeat;
+}
+
+.top-line__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page__title {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+
+}
+
+.breadcrumbs__link {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item::after {
+  content: "/";
+  color: #999;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.page__content {
+  background: #ffffff;
+  color: #202123;
+  padding: 73px 0;
+}
+
+.service {
+  display: flex;
+  padding: 47px 35px;
+  margin-bottom: 44px;
+  text-decoration: none;
+}
+
+.services {
+  margin-bottom: 16px;
+}
+
+.service:hover {
+  background: #f4f5f5;
+}
+
+.service__img {
+  width: 43%;
+  margin-right: 5%;
+}
+
+.service__content {
+  flex: 1;
+}
+
+.service__title {
+  font-size: 30px;
+  margin-right: 9%;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #202123;
+}
+
+.service__desc {
+  line-height: 1.69;
+  margin-bottom: 29px;
+}
+
+.inner__section {
+  background:#fff;
+  color: #202123;
+  padding: 116px 0;
+}
+
+.inner__section-bg-grey {
+  background:#f4f5f5;;
+}
+
+.inner__section-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}

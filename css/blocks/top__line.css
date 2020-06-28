@@ -1,0 +1,25 @@
+.top-line {
+  min-height: 415px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background: #202123 url("/img/bg/lion-head-wide.jpg") right 25% top no-repeat;
+}
+
+.top-line__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-line__page-title {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+/* .header__content {
+  background: url(/img/bg/lion-head-wide.jpg) center top no-repeat;
+} */

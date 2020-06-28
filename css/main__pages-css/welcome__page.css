@@ -1,0 +1,87 @@
+@import url('/css/layout/base.css');
+@import url('/css/layout/normalize.css');
+
+@import url('/css/blocks/btn.css');
+@import url('/css/blocks/wrapper.css');
+@import url('/css/blocks/container.css');
+
+.welcome__page-wrapper {
+  background: url(/img/bg/splash.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+
+.welcome__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  align-content: center; 
+  justify-content: center; 
+  overflow: auto;  
+}
+
+.welcome__logo-img {
+  margin-bottom: 67px;
+}
+
+.btn__welcome {
+  padding: 16px 56px;
+}
+
+.welcome__items {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center; 
+  justify-content: center; 
+  overflow: auto;
+  flex-direction: column;
+  opacity: 0;
+  animation: bounce 1.6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(-50px);
+  }
+
+  35% {
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(0);
+  }
+
+  55% {
+    transform: translateY(-40px);
+  }
+
+  65% {
+    transform: translateY(0);
+  }
+
+  70% {
+    transform: translateY(-10px);
+  }
+
+  80% {
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+

@@ -1,0 +1,49 @@
+@import url('/css/layout/base.css');
+@import url('/css/layout/normalize.css');
+
+@import url('/css/blocks/btn.css');
+@import url('/css/blocks/wrapper.css');
+@import url('/css/blocks/container.css');
+
+.welcome__page-wrapper {
+  background: url(/img/bg/splash.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+
+.welcome__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  align-content: center; 
+  justify-content: center; 
+  overflow: auto;  
+}
+
+.welcome__logo-img {
+  margin-bottom: 67px;
+}
+
+.btn__welcome {
+  padding: 16px 56px;
+}
+
+.welcome__items {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center; 
+  justify-content: center; 
+  overflow: auto;
+  flex-direction: column;
+}
+
+
+

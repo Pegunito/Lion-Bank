@@ -1,0 +1,29 @@
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 250px;
+  height: 100px;
+  align-items: center;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+  transition: .2s;
+}
+
+.inner-section__partners {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__item {
+  padding-top: 28px;
+  margin-left: 34px;
+  margin-bottom: 5px;
+ 
+}
+
+.partners__item:nth-child(4n + 1) {
+  margin-left: 0;
+}

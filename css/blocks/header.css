@@ -1,0 +1,22 @@
+.header {
+  padding-top: 45px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo {
+  display: block;
+  margin-right: 92px;
+}
+
+.logo:hover {
+  opacity: 0.5;
+  transition-duration: .3s;
+}
+
+.logo:not(:hover) {
+  transition: .3s;
+}

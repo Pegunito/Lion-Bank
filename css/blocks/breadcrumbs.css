@@ -1,0 +1,38 @@
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+
+}
+
+.breadcrumbs__link {
+  font-size: 14px;
+  font-weight: normal;
+}
+/* 
+.breadcrumbs__item:hover {
+  font-weight: bold;
+  transition: .3s;
+}
+
+.breadcrumbs__item:not(:hover) {
+  transition: .3s;
+}
+ */
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item::after {
+  content: "/";
+  color: #999;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs_link_active {
+  font-size: 14px;
+  font-weight: bold;
+}

@@ -1,0 +1,44 @@
+.main-content__services {
+  margin-bottom: 75px;
+}
+
+.service {
+  display: flex;
+  padding: 41px 35px;
+  text-decoration: none;
+}
+
+.services__item {
+  margin-bottom: 48px;
+}
+
+.services__item:last-child {
+  margin-bottom: 0;
+}
+
+.service:hover {
+  background: #f4f5f5;
+}
+
+.service__img {
+  width: 43%;
+  margin-right: 5.3%;
+}
+
+.service__content {
+  flex: 1;
+}
+
+.service__title {
+  font-size: 30px;
+  max-width: 465px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #202123;
+  white-space: pre-line;
+}
+
+.service__desc {
+  line-height: 1.69;
+  margin-bottom: 29px;
+}

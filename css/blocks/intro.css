@@ -1,0 +1,23 @@
+.hero {
+  margin-bottom: 168px;
+}
+
+.hero__intro {
+  width: 40%;
+}
+
+.content__description {
+  font-size: 18px;
+  color: #dfb56d;
+  margin-bottom: 54px;
+}
+
+.content__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 14px;
+
+}
+
+

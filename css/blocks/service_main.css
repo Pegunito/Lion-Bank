@@ -1,0 +1,13 @@
+@import url('/css/layout/base.css');
+@import url('/css/layout/normalize.css');
+
+@import url('/css/blocks/service_base.css');
+@import url('/css/blocks/header.css');
+@import url('/css/blocks/contacts.css');
+@import url('/css/blocks/nav.css');
+@import url('/css/blocks/footer.css');
+@import url('/css/blocks/social__path.css');
+@import url('/css/blocks/paginator.css');
+@import url('/css/blocks/container.css');
+@import url('/css/blocks/wrapper.css');
+@import url('/css/blocks/btn.css');
