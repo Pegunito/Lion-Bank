@@ -1,9 +1,9 @@
-@import url('/css/layout/base.css');
-@import url('/css/layout/normalize.css');
+@import url('./css/layout/base.css');
+@import url('./css/layout/normalize.css');
 
-@import url('/css/blocks/btn.css');
-@import url('/css/blocks/wrapper.css');
-@import url('/css/blocks/container.css');
+@import url('./css/blocks/btn.css');
+@import url('./css/blocks/wrapper.css');
+@import url('./css/blocks/container.css');
 
 .welcome__page-wrapper {
   background: url(/img/bg/splash.jpg) center center no-repeat fixed;
