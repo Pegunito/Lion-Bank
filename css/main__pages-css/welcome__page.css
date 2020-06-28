@@ -6,7 +6,7 @@
 @import url('../blocks/container.css');
 
 .welcome__page-wrapper {
-  background: url(.../.../img/bg/splash.jpg) center center no-repeat fixed;
+  background: url(../../img/bg/splash.jpg) center center no-repeat fixed;
   background-size: cover;
 }
 
