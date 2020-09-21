@@ -1,1 +1,1 @@
-This is my first web experience! The site was made just for desktops!
+This is my first web experience! The site was only made just for desktops!
